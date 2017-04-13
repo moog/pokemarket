@@ -6,7 +6,7 @@ env:
   global: 
     - PROD=false
     - API_ADDRESS=localhost
-    - API_PORT=8080
+    - API_PORT=1991
     - DB_USER=travis
     - DB_PASS=
     - DB_NAME=pokemarket
