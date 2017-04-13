@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "7.9.0"
-script: npm install -g pm2 && npm install && npm start && npm test
+script: npm install -g pm2 && npm install && npm test
 env:
   global: 
     - PROD=false
