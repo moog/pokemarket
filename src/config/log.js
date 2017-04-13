@@ -10,7 +10,7 @@ if (process.env.PROD == 'false') {
     log = bunyan.createLogger({
         name: 'PokeMarket',
         streams: [{
-            path: '/var/log/pokemarket.log'
+            path: process.env.LOG_DIR + 'pokemarket.log'
         }]
     });
 }
