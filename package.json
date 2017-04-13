@@ -7,7 +7,7 @@
     "start": "pm2 start -f -i 1 src/index.js --watch",
     "stop": "pm2 delete index",
     "dev": "pm2 start -f -i 1 src/index.js --watch && pm2 logs index",
-    "test": "jest",
+    "test": "jest --forceExit",
     "log": "pm2 logs index"
   },
   "author": "Mateus Moog",
