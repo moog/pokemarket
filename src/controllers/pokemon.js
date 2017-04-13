@@ -121,7 +121,6 @@ async function buyPokemon (req, res) {
             transactionStatus: pagarmeTransaction.status
         });
     } catch (err) { 
-        console.log(err)
         await transaction.rollback();
         return res.status(400).json({
             error: errors.PURCHASE_FAILED,
