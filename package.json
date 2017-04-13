@@ -16,7 +16,6 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.15.2",
     "bunyan": "^1.8.10",
-    "cookie-parser": "^1.4.3",
     "cors": "^2.8.3",
     "dotenv": "^4.0.0",
     "express": "*",
@@ -26,8 +25,6 @@
     "morgan": "^1.8.1",
     "mysql": "^2.13.0",
     "pagarme": "^3.0.2",
-    "request": "^2.73.0",
-    "request-promise": "^4.0.0",
     "rotating-file-stream": "^1.2.1",
     "sequelize": "^3.30.4"
   },
