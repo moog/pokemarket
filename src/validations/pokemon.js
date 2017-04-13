@@ -12,16 +12,6 @@ const createPokemon = {
     }
 };
 
-/*const buyPokemons = {
-    body: {
-        pokemons: Joi.array().items(
-            Joi.object().keys({
-                uuid: Joi.string().guid({ version: ['uuidv4'] }).required(),
-                amount: Joi.number().positive().integer().max(9999).required()
-            }).required()
-        ).required()
-    }
-};*/
 const buyPokemon = {
     body: {
         uuid: Joi.string().guid({ version: ['uuidv4'] }).required(),
