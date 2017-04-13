@@ -1,3 +1,5 @@
+# Pokemarket <img src="https://travis-ci.org/MateusMoog/pokemarket.svg?branch=master" />
+
 Refactoring de código para utilizar a [API](https://docs.pagar.me/) da Pagar.me
 
 ## Desafio
