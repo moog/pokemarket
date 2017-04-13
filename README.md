@@ -1,4 +1,4 @@
-<img src="https://travis-ci.org/MateusMoog/pokemarket.svg?branch=master" />
+[![Build Status](https://travis-ci.org/MateusMoog/pokemarket.svg?branch=master)](https://travis-ci.org/MateusMoog/pokemarket)
 
 # Pokemarket 
 
