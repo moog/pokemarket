@@ -1,5 +1,3 @@
-'use strict'
-
 const fs = require('fs');
 const morgan = require('morgan');
 const rotatingFile = require('rotating-file-stream');

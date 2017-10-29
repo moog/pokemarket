@@ -1,5 +1,3 @@
-'use strict'
-
 const controller = require('../controllers/pokemon');
 const validate = require('express-validation');
 const schemas = require('../validations/pokemon.js');

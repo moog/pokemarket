@@ -1,5 +1,3 @@
-'use strict'
-
 const Promise = require('bluebird');
 const Pokemon = require('../models/pokemon');
 const Pagarme = require('../services/pagarme');

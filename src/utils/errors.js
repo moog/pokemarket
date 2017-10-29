@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = {
     NO_ERROR: 0,
     INTERNAL: 10,

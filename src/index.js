@@ -1,5 +1,3 @@
-'use strict'
-
 if (!process.env.TRAVIS || process.env.TRAVIS == 'false') {
 	require('dotenv').config();
 }
