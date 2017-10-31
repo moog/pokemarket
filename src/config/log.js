@@ -1,5 +1,3 @@
-'use strict'
-
 const bunyan = require('bunyan')
 
 let log = null

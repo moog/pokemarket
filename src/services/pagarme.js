@@ -1,5 +1,3 @@
-'use strict'
-
 const pagarme = require('pagarme')
 
 class Pagarme {

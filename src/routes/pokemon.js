@@ -1,5 +1,3 @@
-'use strict'
-
 const controller = require('../controllers/pokemon')
 const validate = require('express-validation')
 const schemas = require('../validations/pokemon.js')
@@ -9,4 +7,3 @@ module.exports = (app) => {
   app.put('/pokemons', validate(schemas.createPokemon), controller.createPokemon)
   app.post('/pokemons/buy', validate(schemas.buyPokemon), controller.buyPokemon)
 }
-

@@ -1,5 +1,3 @@
-'use strict'
-
 const app = require('../src/index.js');
 const request = require('supertest')(app);
 const Pagarme = require('../src/services/pagarme.js');
