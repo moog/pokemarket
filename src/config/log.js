@@ -1,16 +1,16 @@
-const bunyan = require('bunyan');
+const bunyan = require('bunyan')
 
-let log = null;
+let log = null
 
 if (process.env.PROD == 'false') {
-    log = console;
+  log = console
 } else {
-    log = bunyan.createLogger({
-        name: 'PokeMarket',
-        streams: [{
-            path: process.env.LOG_DIR + 'pokemarket.log'
-        }]
-    });
+  log = bunyan.createLogger({
+    name: 'PokeMarket',
+    streams: [{
+      path: `${process.env.LOG_DIR}pokemarket.log`,
+    }],
+  })
 }
 
-module.exports = log;
+module.exports = log
